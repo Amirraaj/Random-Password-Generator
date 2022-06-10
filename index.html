@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     <div class="wrapper">
+        <div class="title">
+            Generate a random password
+        </div>
+        <div class="sub-title">
+            Never use an insecure password again.
+        </div>  
+        <form action="">
+            <label for="length" class="label-length">Length of Password:</label>
+            <select id="length" name="length">
+                <option >15</option>
+                <option >14</option>
+                <option >13</option>
+                <option >12</option>
+                <option >11</option>
+                <option >10</option>
+                <option >9</option>
+                <option >8</option>
+            </select>
+            <label for="length" class="label-Number">Number:</label>
+            <input type="checkbox" id="check-number" checked />
+            <label for="length" class="label-Uppercase">Upper Case:</label>
+            <input type="checkbox" id="check-uppercase" checked />
+            <label for="length" class="label-symbols">Symbols :</label>
+            <input type="checkbox" id="check-symbols" checked/>
+        </form>
+            <button class="generate" onclick="first()"> Generate Password</button>
+
+        <div class="line"></div>
+        <div class="password-container">
+            <div class="password"><p id="first">...</p></div>
+            <div class="password"><p id="second">...</p></div>
+            <div class="password"><p id="third">...</p></div>
+            <div class="password"><p id="forth">...</p></div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

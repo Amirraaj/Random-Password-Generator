@@ -1,0 +1,177 @@
+
+body{
+    background:  #d3efe6;
+}
+.wrapper{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 440px;  
+    top: 110px;
+    background: #1F2937;
+}
+
+.title{ position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 80px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    letter-spacing: -0.025em;
+
+    color: #4ADF86;
+
+}
+
+.sub-title{
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 50px;
+    top: 175px;
+
+    /* text-xl/leading-7/font-normal */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    /* Medium grey */
+
+    color: #D5D4D8;
+    }
+
+.generate{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+
+    position: absolute;
+    width: 223px;
+    height: 42px;
+    left: 52px;
+    top: 340px;
+    border: none;
+
+    background: #10B981;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.generate:hover{
+    background: #048c5e;
+}
+
+.password-container{
+    display: grid;
+    grid-template-columns: auto auto ;
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 400px;
+
+}
+
+.line{
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 400px;
+    border: 1px solid #2F3E53;
+}
+
+.password{
+    margin-top: 30px;
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 399px;
+
+    background: #273549;
+    border-radius: 6px;
+}
+
+p{
+    display: flex;
+    color: #55F991;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.label-length,
+.label-Number,
+.label-Uppercase,
+.label-symbols {
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #D5D4D8;
+    }
+
+    .label-length{
+        top: 210px;;
+    }
+    .label-Number{
+        top: 240px;
+    }
+    .label-Uppercase{
+        top: 268px;;
+    }
+    .label-symbols{
+        top: 295px;
+    }
+
+#length{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    left: 225px;
+    top: 214px;
+    background: #10B981;
+
+}
+
+#check-number,
+#check-uppercase,
+#check-symbols{
+    position: absolute;
+    left: 220px;;
+    height: 15px; 
+    width: 15px;
+}
+
+#check-number{
+    top: 243px;
+}
+#check-uppercase{
+    top:270px ;
+}
+
+#check-symbols{
+    top: 300px;;
+}
